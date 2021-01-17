@@ -2,8 +2,8 @@ extends Area2D
 
 onready var animated_sprite = $AnimatedSprite
 
-signal entered
-signal exited
+signal on
+signal off
 
 func _ready():
 	connect("body_entered", self, "_on_body_entered")
@@ -13,7 +13,7 @@ func _ready():
 func _on_body_entered(body):
 	if animated_sprite.animation == "off":
 		animated_sprite.play("on")
-		emit_signal("entered")
+		emit_signal("on")
 	else:
 		animated_sprite.play("off")
-		emit_signal("exited")
+		emit_signal("off")
