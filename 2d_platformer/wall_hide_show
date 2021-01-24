@@ -1,0 +1,9 @@
+extends StaticBody2D
+
+
+func open_gate():
+	$CollisionShape2D.set_deferred("disabled", true)
+	$Sprite.visible = false
+func close_gate():
+	$CollisionShape2D.set_deferred("disabled", false)
+	$Sprite.visible = true
