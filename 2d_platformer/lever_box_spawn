@@ -1,0 +1,8 @@
+extends Node2D
+
+
+func box():
+	var box = load("res://Box.tscn")
+	var box_i = box.instance()
+	get_tree().get_root().call_deferred("add_child", box_i)
+	box_i.position = get_node("BoxPosition").get_global_position()
