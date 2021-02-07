@@ -1,0 +1,28 @@
+func _process(delta):
+	if Global.hp == 5:
+		$'6HP'.visible = false
+	else:if Global.hp == 4:
+		$'6HP'.visible = false
+		$'5HP'.visible = false
+	else:if Global.hp == 3:
+		$'6HP'.visible = false
+		$'5HP'.visible = false
+		$'4HP'.visible = false
+	else:if Global.hp == 2:
+		$'6HP'.visible = false
+		$'5HP'.visible = false
+		$'4HP'.visible = false
+		$'3HP'.visible = false
+	else:if Global.hp == 1:
+		$'6HP'.visible = false
+		$'5HP'.visible = false
+		$'4HP'.visible = false
+		$'3HP'.visible = false
+		$'2HP'.visible = false
+	else:if Global.hp == 0:
+		$'6HP'.visible = false
+		$'5HP'.visible = false
+		$'4HP'.visible = false
+		$'3HP'.visible = false
+		$'2HP'.visible = false
+		$'1HP'.visible = false
