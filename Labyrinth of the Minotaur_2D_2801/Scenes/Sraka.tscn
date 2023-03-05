@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Montserrat-VariableFont_wght.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Pictures/minotaur.png" type="Texture" id=2]
+[ext_resource path="res://Pictures/labirinth_bg.jpg" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+outline_size = 2
+font_data = ExtResource( 1 )
+
+[node name="Sraka" type="Node2D"]
+
+[node name="LabirinthBg" type="Sprite" parent="."]
+position = Vector2( 128, -160 )
+scale = Vector2( 2.79545, 2.79545 )
+texture = ExtResource( 3 )
+
+[node name="minotaur" type="Sprite" parent="."]
+position = Vector2( -32, -160 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 224.0
+margin_top = -608.0
+margin_right = 448.0
+margin_bottom = -512.0
+custom_fonts/font = SubResource( 1 )
+text = "Тобі срака..."
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 0, -160 )
+zoom = Vector2( 2, 2 )

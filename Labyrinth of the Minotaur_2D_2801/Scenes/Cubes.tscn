@@ -1,0 +1,292 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Cubes.gd" type="Script" id=1]
+[ext_resource path="res://Pictures/point-removebg-preview.png" type="Texture" id=2]
+
+[node name="Cubes" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ -42.4021 ]
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -32.0
+margin_top = -36.0
+margin_right = 1066.0
+margin_bottom = 657.0
+color = Color( 0.0196078, 0.231373, 0.0588235, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cube1" type="Node2D" parent="."]
+visible = false
+
+[node name="Anim1_1" type="Node2D" parent="Cube1"]
+visible = false
+
+[node name="1_1" type="Sprite" parent="Cube1/Anim1_1"]
+position = Vector2( 320, 288 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim1_2" type="Node2D" parent="Cube1"]
+visible = false
+
+[node name="1_2" type="Sprite" parent="Cube1/Anim1_2"]
+position = Vector2( 352, 320 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_2" type="Sprite" parent="Cube1/Anim1_2"]
+position = Vector2( 288, 256 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim1_3" type="Node2D" parent="Cube1"]
+visible = false
+
+[node name="1_3" type="Sprite" parent="Cube1/Anim1_3"]
+position = Vector2( 384, 320 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_3" type="Sprite" parent="Cube1/Anim1_3"]
+position = Vector2( 256, 256 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_3" type="Sprite" parent="Cube1/Anim1_3"]
+position = Vector2( 320, 288 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim1_4" type="Node2D" parent="Cube1"]
+visible = false
+
+[node name="1_4" type="Sprite" parent="Cube1/Anim1_4"]
+position = Vector2( 384, 320 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_4" type="Sprite" parent="Cube1/Anim1_4"]
+position = Vector2( 288, 352 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_4" type="Sprite" parent="Cube1/Anim1_4"]
+position = Vector2( 256, 256 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="4_4" type="Sprite" parent="Cube1/Anim1_4"]
+position = Vector2( 352, 229.75 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim1_5" type="Node2D" parent="Cube1"]
+visible = false
+
+[node name="1_5" type="Sprite" parent="Cube1/Anim1_5"]
+position = Vector2( 384, 320 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_5" type="Sprite" parent="Cube1/Anim1_5"]
+position = Vector2( 288, 352 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_5" type="Sprite" parent="Cube1/Anim1_5"]
+position = Vector2( 256, 256 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="4_5" type="Sprite" parent="Cube1/Anim1_5"]
+position = Vector2( 352, 229.75 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="5_5" type="Sprite" parent="Cube1/Anim1_5"]
+position = Vector2( 320, 288 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim1_6" type="Node2D" parent="Cube1"]
+visible = false
+
+[node name="1_6" type="Sprite" parent="Cube1/Anim1_6"]
+position = Vector2( 384, 320 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_6" type="Sprite" parent="Cube1/Anim1_6"]
+position = Vector2( 288, 352 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_6" type="Sprite" parent="Cube1/Anim1_6"]
+position = Vector2( 256, 256 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="4_6" type="Sprite" parent="Cube1/Anim1_6"]
+position = Vector2( 352, 229.75 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="5_6" type="Sprite" parent="Cube1/Anim1_6"]
+position = Vector2( 305.231, 244.014 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="6_6" type="Sprite" parent="Cube1/Anim1_6"]
+position = Vector2( 335.732, 337.444 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Cube2" type="Node2D" parent="."]
+visible = false
+position = Vector2( 38.3087, -2.6727 )
+
+[node name="Anim2_1" type="Node2D" parent="Cube2"]
+visible = false
+
+[node name="1_1" type="Sprite" parent="Cube2/Anim2_1"]
+position = Vector2( 624.268, 282.007 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim2_2" type="Node2D" parent="Cube2"]
+visible = false
+
+[node name="1_2" type="Sprite" parent="Cube2/Anim2_2"]
+position = Vector2( 586.061, 245.298 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_2" type="Sprite" parent="Cube2/Anim2_2"]
+position = Vector2( 666.969, 330.702 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim2_3" type="Node2D" parent="Cube2"]
+visible = false
+
+[node name="1_3" type="Sprite" parent="Cube2/Anim2_3"]
+position = Vector2( 574.824, 233.312 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_3" type="Sprite" parent="Cube2/Anim2_3"]
+position = Vector2( 666.969, 332.949 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_3" type="Sprite" parent="Cube2/Anim2_3"]
+position = Vector2( 623.518, 285.752 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim2_4" type="Node2D" parent="Cube2"]
+visible = false
+
+[node name="1_4" type="Sprite" parent="Cube2/Anim2_4"]
+position = Vector2( 574.824, 233.312 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_4" type="Sprite" parent="Cube2/Anim2_4"]
+position = Vector2( 667.719, 238.556 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_4" type="Sprite" parent="Cube2/Anim2_4"]
+position = Vector2( 577.82, 330.702 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="4_4" type="Sprite" parent="Cube2/Anim2_4"]
+position = Vector2( 672.963, 333.698 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim2_5" type="Node2D" parent="Cube2"]
+visible = false
+
+[node name="1_5" type="Sprite" parent="Cube2/Anim2_5"]
+position = Vector2( 574.824, 233.312 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_5" type="Sprite" parent="Cube2/Anim2_5"]
+position = Vector2( 667.719, 235.559 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_5" type="Sprite" parent="Cube2/Anim2_5"]
+position = Vector2( 577.82, 330.702 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="4_5" type="Sprite" parent="Cube2/Anim2_5"]
+position = Vector2( 672.963, 333.698 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="5_5" type="Sprite" parent="Cube2/Anim2_5"]
+position = Vector2( 622.769, 283.505 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Anim2_6" type="Node2D" parent="Cube2"]
+visible = false
+
+[node name="1_6" type="Sprite" parent="Cube2/Anim2_6"]
+position = Vector2( 573.325, 231.064 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="2_6" type="Sprite" parent="Cube2/Anim2_6"]
+position = Vector2( 671.464, 231.813 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="3_6" type="Sprite" parent="Cube2/Anim2_6"]
+position = Vector2( 572.576, 334.447 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="4_6" type="Sprite" parent="Cube2/Anim2_6"]
+position = Vector2( 674.461, 335.946 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="5_6" type="Sprite" parent="Cube2/Anim2_6"]
+position = Vector2( 623.519, 335.946 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="6_6" type="Sprite" parent="Cube2/Anim2_6"]
+position = Vector2( 623.519, 231.064 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Cube1_rect" type="ColorRect" parent="."]
+margin_left = 224.0
+margin_top = 224.0
+margin_right = 389.0
+margin_bottom = 392.0
+rect_rotation = -15.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cube2_rect" type="ColorRect" parent="."]
+margin_left = 582.309
+margin_top = 189.327
+margin_right = 747.309
+margin_bottom = 357.327
+__meta__ = {
+"_edit_use_anchors_": false
+}
